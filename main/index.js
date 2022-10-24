@@ -27,6 +27,13 @@ registerMicroApps(
       // loader,
       activeRule: '/vue3',
     },
+    {
+      name: 'vue3Vite',
+      entry: 'http://localhost:7316',
+      container: '#subapp-viewport',
+      // loader,
+      activeRule: '/vue3Vite',
+    },
   ],
   {
     beforeLoad: [

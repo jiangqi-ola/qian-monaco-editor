@@ -1,0 +1,21 @@
+{
+  "name": "vue3-vite",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.31",
+    "vue-router": "^4.0.11",
+    "monaco-editor": "0.27.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.6.0",
+    "@vue/compiler-sfc": "^3.2.31",
+    "vite-plugin-qiankun": "1.0.10",
+    "vite": "^2.5.2"
+  }
+}
